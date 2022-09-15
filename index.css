@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body{
+    background-color: #171821;
+    color: white;
+    padding: 0px;
+    margin: auto;
+}
+
+#navbar{
+    background-image: linear-gradient(to right, #1FC5A8, #576182);
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    padding: 20px 50px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+}
+
+#home{
+    width: 100%;
+    height: 650px;
+    margin: auto;
+    padding-top: 60px;
+    padding-left: 100px;
+    display: flex;
+}
+
+#hometag{
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+#hometag:hover{
+    color: black;
+}
+
+#name{
+    width: 500px;
+    margin-top: 120px;
+}
+#name>p:first-child{
+    font-size: 30px;
+    margin: 0px;
+    margin-left: 5px;
+    letter-spacing: 2px;
+}
+
+#name>p:nth-child(2){
+    font-size: 100px;
+    margin: 0px;
+    line-height: 100px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-family: Open Sans;
+}
+
+#name>p:nth-child(3){
+    font-size: 30px;
+    margin: 0px;
+    margin-bottom: 20px;
+    font-family: Poppins;
+}
+
+#image{
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #1FC5A8, #576182)1 100%;
+    padding: 20px 20px;
+    height: 320px;
+    width: 700px;
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 200px;
+    margin-top: 120px;
+}
+#image>img{
+    width: 320px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+#resume{
+    padding: 5px 10px;
+    background-image: linear-gradient(to bottom right, #1FC5A8, #576182);
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+}
+#resume>a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: Open Sans;
+}
+#resume:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to bottom left, #1FC5A8, #576182);
+}
+
+#about{
+    width: 100%;
+    height: 650px;
+    margin: auto;
+    padding-top: 100px;
+
+}
+
+#abouttag{
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+#abouttag:hover{
+    color: black;
+}
+
+#about-content{
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+}
+#about-content>p:first-child{
+    font-size: 40px;
+    font-family: Open Sans;
+}
+#about-content>p:last-child{
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-family: Poppins;
+}
+
+#skills{
+    width: 100%;
+    height: 1000px;
+    border: 1px solid black;
+}
+
+#skilltag{
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+#skilltag:hover{
+    color: black;
+}
+
+#projects{
+    width: 100%;
+    height: 1000px;
+    border: 1px solid black;
+}
+
+#projecttag{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+#projecttag:hover{
+    color: black;
+}
