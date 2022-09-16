@@ -32,10 +32,11 @@ body{
 }
 
 #hometag{
-    margin-right: 30px;
+    margin-right: 50px;
     text-decoration: none;
     color: white;
     font-size: 22px;
+    font-family: Open Sans;
 }
 #hometag:hover{
     color: black;
@@ -50,6 +51,7 @@ body{
     margin: 0px;
     margin-left: 5px;
     letter-spacing: 2px;
+    font-family: Open Sans;
 }
 
 #name>p:nth-child(2){
@@ -108,17 +110,17 @@ body{
 
 #about{
     width: 100%;
-    height: 650px;
+    height: 400px;
     margin: auto;
     padding-top: 100px;
-
 }
 
 #abouttag{
-    margin-right: 30px;
+    margin-right: 50px;
     text-decoration: none;
     color: white;
     font-size: 22px;
+    font-family: Open Sans;
 }
 #abouttag:hover{
     color: black;
@@ -143,31 +145,336 @@ body{
 
 #skills{
     width: 100%;
-    height: 1000px;
-    border: 1px solid black;
+    height: 500px;
+    text-align: center;
+    padding-top: 100px;
 }
 
 #skilltag{
-    margin-right: 30px;
+    margin-right: 50px;
     text-decoration: none;
     color: white;
     font-size: 22px;
+    font-family: Open Sans;
 }
 #skilltag:hover{
     color: black;
 }
 
+#skills>h1{
+    font-size: 40px;
+    font-family: Open Sans;
+    letter-spacing: 3px;
+}
+
+#skillcards{
+    display: flex;
+    width: 1200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#skillnames{
+    display: flex;
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+#htmlname, #cssname, #jsname, #javaname, #gitname{
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+}
+
+#html{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#html>img{
+    width: 120px;
+}
+
+#css{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#css>img{
+    width: 120px;
+}
+
+#js{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#js>img{
+    width: 120px;
+}
+
+#java{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#java>img{
+    width: 100px;
+}
+
+#git{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#git>img{
+    width: 120px;
+}
+
+
+
+
+
+
+
+
 #projects{
     width: 100%;
-    height: 1000px;
-    border: 1px solid black;
+    height: 1100px;
+    padding-top: 100px;
+    text-align: center;
+    font-family: Open Sans;
+    letter-spacing: 3px;
 }
 
 #projecttag{
     text-decoration: none;
     color: white;
     font-size: 22px;
+    font-family: Open Sans;
 }
 #projecttag:hover{
     color: black;
+}
+
+#project1{
+    background-image: linear-gradient(to bottom right, #576182, #1FC5A8, #576182, #1FC5A8);
+    border-radius: 3px;
+    width: 1140px;
+    height: 360px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#projects>h1{
+    margin-bottom: 50px;
+}
+
+#projecttxt{
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    width: 500px;
+    height: 345px;
+    text-align: left;
+    background-color: #171821;
+}
+#projecttxt>p:first-child{
+    font-size: 25px;
+}
+#projecttxt>p:nth-child(2){
+    font-size: 15px;
+    font-family: Poppins;
+    
+}
+#projecttxt>p:nth-child(3){
+    font-size: 15px;
+}
+
+#projecttxt>button>a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    font-family: Montserrat;
+}
+
+#projecttxt>button{
+    width: 90px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border: 2px solid #576182;
+    border-radius: 2px;
+    height: 30px;
+    background-color: #171821;
+}
+
+#projecttxt>button:hover{
+    cursor: pointer;
+    border: 2px solid #1FC5A8;
+}
+
+#projectimg>img{
+    width: 600px;
+    border-radius: 5px;
+}
+
+#project2{
+    background-image: linear-gradient(to bottom right, #576182, #1FC5A8, #576182, #1FC5A8);
+    border-radius: 3px;
+    width: 1140px;
+    height: 360px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#projectimg2>img{
+    width: 610px;
+    border-radius: 5px;
+}
+
+#projecttxt2{
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    width: 500px;
+    height: 335px;
+    text-align: left;
+    background-color: #171821;
+}
+
+#projecttxt2>p:first-child{
+    font-size: 25px;
+}
+#projecttxt2>p:nth-child(2){
+    font-size: 15px;
+    font-family: Poppins;
+    
+}
+#projecttxt2>p:nth-child(3){
+    font-size: 15px;
+}
+
+#projecttxt2>button>a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    font-family: Montserrat;
+}
+
+#projecttxt2>button{
+    width: 90px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border: 2px solid #576182;
+    border-radius: 2px;
+    height: 30px;
+    background-color: #171821;
+}
+
+#projecttxt2>button:hover{
+    cursor: pointer;
+    border: 2px solid #1FC5A8;
+}
+
+#projectcards{
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+
+#contact{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+#contact>p:first-child{
+    font-size: 30px;
+    font-family: Open Sans;
+}
+#contact>p:last-child{
+    font-size: 15px;
+    font-family: Poppins;
+    margin-top: 40px;
+}
+
+#contactbox{
+    display: flex;
+    width: 750px;
+    box-sizing: border-box;
+    margin: auto;
+    justify-content: space-between;
+}
+
+
+
+#giticon{
+    width: 30px;
+    background-color: white;
+}
+
+#linkedinicon{
+    width: 30px;
+    background-color: white;
+}
+
+#contactbox>div:first-child{
+    width: 250px;
+    text-align: center;
+    
+    font-family: Montserrat;
+}
+
+#contactbox>div:nth-child(2){
+    width: 200px;
+    text-align: center;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    font-family: Montserrat;
+}
+
+#contactbox>div:nth-child(3){
+    display: flex;
+    
+    justify-content: space-evenly;
+    align-items: center;
+    width: 250px;
+
 }
